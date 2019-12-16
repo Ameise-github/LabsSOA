@@ -1,0 +1,7 @@
+
+-- Создание нового пользователя
+CREATE USER labs_soa WITH PASSWORD 'lab';
+-- Создание базы данных
+CREATE DATABASE printedition;
+-- Предоставление права на управление базой пользователю
+GRANT ALL PRIVILEGES ON DATABASE printedition TO labs_soa; 

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PublicationServer:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7eaa89b8-802a-49cb-8384-7e12fc50e12f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UG0NVaqd2S0ofZouiRSt9qbFZu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27936146" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="publicationPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebService.publicationPublisher" />
+      <module name="PublicationServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.publicationPublisher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7eaa89b8-802a-49cb-8384-7e12fc50e12f" name="Default Changelist" comment="" />
+      <created>1574967584900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574967584900</updated>
+      <workItem from="1574967588197" duration="53000" />
+      <workItem from="1574967675151" duration="2753000" />
+      <workItem from="1574971140020" duration="81000" />
+      <workItem from="1574971285656" duration="1854000" />
+      <workItem from="1574973806223" duration="820000" />
+      <workItem from="1575050821061" duration="882000" />
+      <workItem from="1575054266679" duration="1156000" />
+      <workItem from="1575056324419" duration="619000" />
+      <workItem from="1575064124649" duration="104000" />
+      <workItem from="1575064362882" duration="2517000" />
+      <workItem from="1575231718571" duration="2423000" />
+      <workItem from="1575290715932" duration="1553000" />
+      <workItem from="1575973963408" duration="1499000" />
+      <workItem from="1576087812321" duration="3384000" />
+      <workItem from="1576173650059" duration="2665000" />
+      <workItem from="1576266543731" duration="1956000" />
+      <workItem from="1576271331564" duration="1903000" />
+      <workItem from="1576357544491" duration="5045000" />
+      <workItem from="1576510001609" duration="1200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576088000679">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1576088000679" />
+    <state x="396" y="171" width="563" height="389" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575974393146">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="396" y="171" width="563" height="389" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.732@0.0.1366.732" timestamp="1575974393146" />
+    <state x="496" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1576269066437">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="496" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.732@0.0.1366.732" timestamp="1576269066437" />
+    <state x="466" y="124" width="424" height="483" key="FileChooserDialogImpl" timestamp="1576267734423">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="466" y="124" width="424" height="483" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1576267734423" />
+    <state width="1320" height="385" key="GridCell.Tab.0.bottom" timestamp="1576375384360">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="385" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1576375384360" />
+    <state width="1320" height="385" key="GridCell.Tab.0.center" timestamp="1576375384359">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="385" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1576375384359" />
+    <state width="1320" height="385" key="GridCell.Tab.0.left" timestamp="1576375384359">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="385" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1576375384359" />
+    <state width="1320" height="385" key="GridCell.Tab.0.right" timestamp="1576375384359">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="385" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1576375384359" />
+    <state x="171" y="0" key="SettingsEditor" timestamp="1576514591353">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="171" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1576514591353" />
+    <state x="151" y="64" key="new project wizard" timestamp="1576369692478">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="151" y="64" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1576369692478" />
+  </component>
+</project>
