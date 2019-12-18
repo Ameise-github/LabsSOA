@@ -6,18 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eaa89b8-802a-49cb-8384-7e12fc50e12f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7eaa89b8-802a-49cb-8384-7e12fc50e12f" name="Default Changelist" comment="Параметры коммандной строки">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/DataBase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SettingDataBase.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PublicationServer_jar/PublicationServer.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebService/publicationPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebService/publicationPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebService/IPublication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebService/IPublication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebService/publicationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebService/PublicationsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebService/publicationPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebService/PublicationsWsdlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/lib/SettingDataBase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lib/DataBase.jar" afterDir="false" />
+    </list>
+    <list id="b4ba56a9-5b9b-490b-99db-5f35d79c47e6" name="ignore" comment="">
       <change beforePath="$PROJECT_DIR$/target/classes/WebService/IPublication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebService/IPublication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebService/publicationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebService/publicationImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebService/publicationPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebService/publicationPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebService/publicationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WebService/publicationPublisher.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +76,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/lib/SettingDataBase.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DataBase/out/artifacts/DataBase_jar/DataBase.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27936146" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
@@ -94,12 +97,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="publicationPublisher" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="PublicationsWsdlService" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:/Develop/jdk_13" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="WebService.publicationPublisher" />
+      <option name="MAIN_CLASS_NAME" value="WebService.PublicationsWsdlService" />
       <module name="PublicationServer" />
-      <option name="PROGRAM_PARAMETERS" value="-wsdl_url http://0.0.0.0:1986/PublicationService -db_url ?" />
+      <option name="PROGRAM_PARAMETERS" value="-s &quot;http://localhost:1986/PublicationService&quot; -d &quot;jdbc:postgresql://194.58.98.174/printedition&quot; -u labs_soa -p lab" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,48 +170,53 @@
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state x="520" y="197" key="#Project_Structure/0.0.1856.1080@0.0.1856.1080" timestamp="1576534461542" />
-    <state x="238" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576538522141">
+    <state x="238" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576708705217">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1576088000679" />
-    <state x="238" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1856.1080@0.0.1856.1080" timestamp="1576538522141" />
+    <state x="238" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1856.1080@0.0.1856.1080" timestamp="1576708705217" />
     <state x="396" y="171" width="563" height="389" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575974393146">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="396" y="171" width="563" height="389" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.732@0.0.1366.732" timestamp="1575974393146" />
-    <state x="496" y="78" key="#com.intellij.ide.util.MemberChooser" timestamp="1576269066437">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="496" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.732@0.0.1366.732" timestamp="1576269066437" />
-    <state x="582" y="133" key="CommitChangelistDialog2" timestamp="1576538581058">
+    <state x="674" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1576707826030">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
-    <state x="582" y="133" key="CommitChangelistDialog2/0.0.1856.1080@0.0.1856.1080" timestamp="1576538581058" />
-    <state x="633" y="183" width="424" height="483" key="FileChooserDialogImpl" timestamp="1576536355540">
+    <state x="496" y="78" key="#com.intellij.ide.util.MemberChooser/0.0.1366.732@0.0.1366.732" timestamp="1576269066437" />
+    <state x="674" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1856.1080@0.0.1856.1080" timestamp="1576707826030" />
+    <state x="582" y="133" key="CommitChangelistDialog2" timestamp="1576708932441">
+      <screen x="0" y="0" width="1856" height="1080" />
+    </state>
+    <state x="582" y="133" key="CommitChangelistDialog2/0.0.1856.1080@0.0.1856.1080" timestamp="1576708932441" />
+    <state x="175" y="89" key="DiffContextDialog" timestamp="1576706224080">
+      <screen x="0" y="0" width="1856" height="1080" />
+    </state>
+    <state x="175" y="89" key="DiffContextDialog/0.0.1856.1080@0.0.1856.1080" timestamp="1576706224080" />
+    <state x="633" y="183" width="424" height="483" key="FileChooserDialogImpl" timestamp="1576707700656">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state x="466" y="124" width="424" height="483" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1576267734423" />
-    <state x="633" y="183" key="FileChooserDialogImpl/0.0.1856.1080@0.0.1856.1080" timestamp="1576536355540" />
-    <state width="1813" height="364" key="GridCell.Tab.0.bottom" timestamp="1576538533314">
+    <state x="633" y="183" key="FileChooserDialogImpl/0.0.1856.1080@0.0.1856.1080" timestamp="1576707700656" />
+    <state width="1813" height="287" key="GridCell.Tab.0.bottom" timestamp="1576709111668">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state width="1320" height="385" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1576375384360" />
-    <state width="1813" height="364" key="GridCell.Tab.0.bottom/0.0.1856.1080@0.0.1856.1080" timestamp="1576538533314" />
-    <state width="1813" height="364" key="GridCell.Tab.0.center" timestamp="1576538533314">
+    <state width="1813" height="287" key="GridCell.Tab.0.bottom/0.0.1856.1080@0.0.1856.1080" timestamp="1576709111668" />
+    <state width="1813" height="287" key="GridCell.Tab.0.center" timestamp="1576709111667">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state width="1320" height="385" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1576375384359" />
-    <state width="1813" height="364" key="GridCell.Tab.0.center/0.0.1856.1080@0.0.1856.1080" timestamp="1576538533314" />
-    <state width="1813" height="364" key="GridCell.Tab.0.left" timestamp="1576538533314">
+    <state width="1813" height="287" key="GridCell.Tab.0.center/0.0.1856.1080@0.0.1856.1080" timestamp="1576709111667" />
+    <state width="1813" height="287" key="GridCell.Tab.0.left" timestamp="1576709111667">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state width="1320" height="385" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1576375384359" />
-    <state width="1813" height="364" key="GridCell.Tab.0.left/0.0.1856.1080@0.0.1856.1080" timestamp="1576538533314" />
-    <state width="1813" height="364" key="GridCell.Tab.0.right" timestamp="1576538533314">
+    <state width="1813" height="287" key="GridCell.Tab.0.left/0.0.1856.1080@0.0.1856.1080" timestamp="1576709111667" />
+    <state width="1813" height="287" key="GridCell.Tab.0.right" timestamp="1576709111667">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state width="1320" height="385" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1576375384359" />
-    <state width="1813" height="364" key="GridCell.Tab.0.right/0.0.1856.1080@0.0.1856.1080" timestamp="1576538533314" />
+    <state width="1813" height="287" key="GridCell.Tab.0.right/0.0.1856.1080@0.0.1856.1080" timestamp="1576709111667" />
     <state width="1813" height="364" key="GridCell.Tab.1.bottom" timestamp="1576538533314">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
@@ -225,29 +233,22 @@
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state width="1813" height="364" key="GridCell.Tab.1.right/0.0.1856.1080@0.0.1856.1080" timestamp="1576538533314" />
-    <state x="694" y="250" key="RollbackChangesDialog" timestamp="1576538597373">
+    <state x="694" y="250" key="RollbackChangesDialog" timestamp="1576706225212">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
-    <state x="694" y="250" key="RollbackChangesDialog/0.0.1856.1080@0.0.1856.1080" timestamp="1576538597373" />
-    <state x="479" y="176" key="SettingsEditor" timestamp="1576536361267">
+    <state x="694" y="250" key="RollbackChangesDialog/0.0.1856.1080@0.0.1856.1080" timestamp="1576706225212" />
+    <state x="479" y="176" key="SettingsEditor" timestamp="1576709092606">
       <screen x="0" y="0" width="1856" height="1080" />
     </state>
     <state x="171" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1576514591353" />
-    <state x="479" y="176" key="SettingsEditor/0.0.1856.1080@0.0.1856.1080" timestamp="1576536361267" />
+    <state x="479" y="176" key="SettingsEditor/0.0.1856.1080@0.0.1856.1080" timestamp="1576709092606" />
+    <state x="823" y="454" key="VCS.ChangelistChooser" timestamp="1576708817773">
+      <screen x="0" y="0" width="1856" height="1080" />
+    </state>
+    <state x="823" y="454" key="VCS.ChangelistChooser/0.0.1856.1080@0.0.1856.1080" timestamp="1576708817773" />
     <state x="151" y="64" key="new project wizard" timestamp="1576369692478">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="151" y="64" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1576369692478" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/WebService/publicationPublisher.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
