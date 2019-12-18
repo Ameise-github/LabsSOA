@@ -61,6 +61,5 @@ public interface IPublication {
     @WebMethod
     int versionInfo();
 
-    @WebMethod
-    void sesionClose();
+    void close();
 }
