@@ -52,6 +52,7 @@ public class PublicationsWsdlService {
 
         SessionFactory sessionFactory = null;
         PublicationsDB db = null;
+        Endpoint endpoint = null;
 
         try {
             sessionFactory = Database.makeSessionFactory(
@@ -62,12 +63,11 @@ public class PublicationsWsdlService {
             db = new PublicationsDB(sessionFactory);
 
             // запускаем веб-сервис, передаваемый во втором аргументе
-            Endpoint.publish(cmd.getOptionValue(OPTION_SERVICE_URL), new PublicationsImpl(db));
+            endpoint = Endpoint.publish(cmd.getOptionValue(OPTION_SERVICE_URL), new PublicationsImpl(db));
             System.out.println("Server run!");
         }
         catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
-
     }
 }
