@@ -102,10 +102,4 @@ public class PublicationsImpl implements IPublication {
     public int versionInfo(){
         return VERSION;
     }
-
-
-    @Override
-    public void close(){
-        publications.closeSession();
-    }
 }
